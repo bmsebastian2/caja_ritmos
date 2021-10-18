@@ -2,7 +2,8 @@ import React from 'react'
 
 const Drummachine = () => {
     return (
-        <div>
+        <div id='display'>
+            
             
         </div>
     )
