@@ -8,8 +8,33 @@ body{
 }
 main{
   min-height: 100vh;  
-  background: linear-gradient(to right top,#65dfc9,#6cdbeb);;
+  background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.App {
+#display{
+  background: white;
+  min-height: 50vh;
+  width: 40%;  
+  border-radius: 2rem; 
+  background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+  padding: 1rem;
+  /* backdrop-filter: blur(10rem); */
+  
+}
+
+#gridStructure {
+  grid-template-rows: 1fr min-content;
+  
+}
+
+
+@media (max-width:767px){
+  #display{
+    min-height: 90vh;
+    width: 90%;  
+
+  }
   
 }
